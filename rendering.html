@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rendering - Theo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="icon" href="julienLogo.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container text-center">
+    <header>
+        <div class="div_header"><a href="index.html"><img src="/Other imgs/Julien_header.PNG" alt=""></a></div>
+        <div class="navigationBar text-center">
+            <nav class='navigation'>
+                <ul class='navigation_links text-center'>
+                    <li><a href="illustration.html">ILLUSTRATION</a></li>
+                    <li><a href="conceptArt.html">CONCEPT ART</a></li>
+                    <li><a href="mattePaintings.html">MATTE PAINTINGS</a></li>
+                    <li><a href="#" class="ThreeD">3D WORK</a>
+                    <ul class="dropdown text-center">
+                       <li><a href="modeling.html">Modeling</a></li>
+                       <li><a href="rendering.html">Rendering</a></li>
+                    </ul>
+                    
+                    </li>
+                    <li><a href="info.html">INFO</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+
+    </header>
+
+    <hr class="under_line">
+</div>
+    <div class="mainGallery">
+        <h2 class="pageHeader">3D - Rendering</h2>
+        <div class="gallery">
+            <img src="/3D Work/Rendering/dfkjghdkfjg.jpg" alt="Skull" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <img src="/3D Work/Rendering/dsfgdsfg.jpg" alt="Bnb" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            <img src="/3D Work/Rendering/dsjkfsdk.png" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            <img src="/3D Work/Rendering/fjhsdyfj.jpg" alt="" onclick="openModal();currentSlide(4)"
+                class="hover-shadow">
+            <img src="/3D Work/Rendering/gjkdfhgkjfd.jpg" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            <img src="/3D Work/Rendering/hgjhsdf.jpg" alt="" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            <img src="/3D Work/Rendering/iolgfh.jpg" alt="" onclick="openModal();currentSlide(7)"
+                class="hover-shadow">
+            <img src="/3D Work/Rendering/jhdfgkjsdf.png" alt="" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            <img src="/3D Work/Rendering/kgdlkfjg.jpg" alt="" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            <img src="/3D Work/Rendering/kjfdhgkjdfogli.jpg" alt="" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            <img src="/3D Work/Rendering/lkjgklfjd.jpg" alt="" onclick="openModal();currentSlide(8)" class="hover-shadow">
+        </div>
+        <footer>
+            <!-- Footer Elements -->
+            <div class="container">
+                <hr class="under_line">
+                <div class="social_media text-center">
+                  <a href="https://www.instagram.com/julientheo_/"><img src="/Icons/Instagram-Icon.png" alt=""></a>
+                  <a href="https://www.artstation.com/julientheo?fbclid=IwAR3538XfBj0euK9juoXewSuKdLOh2VGlmrWo04j60txyHuH61Vvz2yetbRk"> <img src="/Icons/artstation.png" alt=""></a>
+                  <a href="https://twitter.com/Julien_Simon12"> <img src="/Icons/twitter.png" alt=""></a>
+                </div>
+        
+        
+              <!-- Copyright -->
+              <div class="footer-copyright text-center py-3">
+                <p class="footerEmail">jtheosimon@gmail.com <br><br><br><em>© 2019 Julien Theo. All rights reserved.</em></p>
+              </div>
+              <!-- Copyright -->
+        
+          </footer>
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="modal-content">
+
+                <!--Input the appropriate pictures for the sources-->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 11</div>
+                    <img src="/3D Work/Rendering/dfkjghdkfjg.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 11</div>
+                    <img src="/3D Work/Rendering/dsfgdsfg.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 11</div>
+                    <img src="/3D Work/Rendering/dsjkfsdk.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 11</div>
+                    <img src="/3D Work/Rendering/fjhsdyfj.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 11</div>
+                    <img src="/3D Work/Rendering/gjkdfhgkjfd.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 11</div>
+                    <img src="/3D Work/Rendering/hgjhsdf.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 11</div>
+                    <img src="/3D Work/Rendering/iolgfh.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 11</div>
+                    <img src="/3D Work/Rendering/jhdfgkjsdf.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 11</div>
+                    <img src="/3D Work/Rendering/kgdlkfjg.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 11</div>
+                    <img src="/3D Work/Rendering/kjfdhgkjdfogli.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 11</div>
+                    <img src="/3D Work/Rendering/lkjgklfjd.jpg" style="width:100%">
+                </div>
+
+
+                <!-- Caption text 
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

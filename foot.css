@@ -1,0 +1,33 @@
+footer {
+    height: 25rem;
+}
+.footerEmail {
+    text-align: center;
+}
+.social_media {
+    padding: 2rem;
+}
+.social_media img {
+    width: 4rem;
+    padding: 5px;
+}
+.social_media>a {
+    display: inline-block;
+}
+
+.social_media:hover>a {
+    opacity: 0.3;
+}
+
+.social_media:hover>a:hover {
+    opacity: 1;
+}
+.copyright {
+    padding-top: 2rem;
+}
+
+.under_line {
+    background-color: #999966;
+    height: 1px;
+    width: 80%;
+}

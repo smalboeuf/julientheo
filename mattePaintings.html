@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matte Paintings - Theo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="icon" href="julienLogo.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="div_header"><a href="index.html"><img src="/Other imgs/Julien_header.PNG" alt=""></a></div>
+        <div class="navigationBar">
+            <nav class='navigation'>
+                <ul class='navigation_links'>
+                    <li><a href="illustration.html">ILLUSTRATION</a></li>
+                    <li><a href="conceptArt.html">CONCEPT ART</a></li>
+                    <li><a href="mattePaintings.html">MATTE PAINTINGS</a></li>
+                    <li><a href="#" class="ThreeD">3D WORK</a>
+                        <ul class="dropdown">
+                            <li><a href="modeling.html">Modeling</a></li>
+                            <li><a href="rendering.html">Rendering</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="info.html">INFO</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <hr class="under_line">
+
+    <div class="mainGallery">
+        <h2 class="pageHeader">Matte Paintings</h2>
+        <div class="gallery">
+            <img src="/Matte Paintings/QJ8dEHk.jpg" alt="Skull" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <img src="/Matte Paintings/UegTydx.jpg" alt="Bnb" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            <img src="/Matte Paintings/Ygvi28i.jpg" alt="" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            <img src="/Matte Paintings/hIKDLwP.jpg" alt="" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            <img src="/Matte Paintings/vg4O70y.jpg" alt="" onclick="openModal();currentSlide(5)" class="hover-shadow">
+        </div>
+        <div class="container">
+            <div class="row mb-5 row-grid">
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12">
+
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1">
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/g0amH2etdzY" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <br>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12">
+
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-2">
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/09DXTceqoqI" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+<br>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+        <br> <br>
+        <footer>
+            <!-- Footer Elements -->
+            <div class="container">
+                <hr class="under_line">
+                <div class="social_media text-center">
+                    <a href="https://www.instagram.com/julientheo_/"><img src="/Icons/Instagram-Icon.png" alt=""></a>
+                    <a href="https://www.artstation.com/julientheo?fbclid=IwAR3538XfBj0euK9juoXewSuKdLOh2VGlmrWo04j60txyHuH61Vvz2yetbRk">
+                        <img src="/Icons/artstation.png" alt=""></a>
+                    <a href="https://twitter.com/Julien_Simon12"> <img src="/Icons/twitter.png" alt=""></a>
+                </div>
+
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">
+                    <p class="footerEmail">jtheosimon@gmail.com <br><br><br><em>© 2019 Julien Theo. All rights
+                            reserved.</em></p>
+                </div>
+                <!-- Copyright -->
+
+        </footer>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="modal-content">
+
+                <!--Input the appropriate pictures for the sources-->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="/Matte Paintings/QJ8dEHk.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="/Matte Paintings/UegTydx.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="/Matte Paintings/Ygvi28i.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="/Matte Paintings/hIKDLwP.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="/Matte Paintings/vg4O70y.jpg" style="width:100%">
+                </div>
+
+
+
+
+                <!-- Caption text 
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
